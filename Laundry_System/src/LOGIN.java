@@ -137,7 +137,7 @@ public class LOGIN extends javax.swing.JFrame {
 
         String url = "jdbc:mysql://localhost:3306/laundrysystemdatabase"; 
         String user = "root"; 
-        String dbPassword = "SQLreqaw2004"; 
+        String dbPassword = "*************"; 
 
         String sql = "SELECT * FROM login WHERE BINARY Username = ? AND BINARY Password = ?";
         
