@@ -175,7 +175,7 @@ public class Registration extends javax.swing.JFrame {
         
         String url = "jdbc:mysql://localhost:3306/laundrysystemdatabase"; 
         String user = "root"; 
-        String dbPassword = "SQLreqaw2004"; 
+        String dbPassword = "************"; 
 
         String sqlInsert = "INSERT INTO login (Username, Password, Gmail) VALUES (?, ?, ?)";
         String sqlSelect = "SELECT * FROM login WHERE Gmail = ?";
